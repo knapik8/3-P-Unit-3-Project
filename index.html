@@ -1,8 +1,8 @@
 <!-- Unit 3 Project
 Requirements
 [  ] Two External Links
-[  ] Table (minimum 2 Columns by 3 Rows)
-[  ] Three CSS Rules
+[ yes ] Table (minimum 2 Columns by 3 Rows)
+[ yes ] Three CSS Rules
 [  ] Three Images
 
 Select ONE Additional Feature to Add  
@@ -20,25 +20,32 @@ Select ONE Additional Feature to Add
   <title>Project: Recipe book</title>
   <meta charset="utf-8">
   <style>
+     table, th, td {
+       border: 1px solid;
+      }
+
+      #headline1 {
+        color:darkcyan
+      }
+
+      .headline2 {
+        color:cadetblue
+      }
+
   </style>
 </head>
 
 <body>
 
-  <h1>____'s Recipe Book</h1>
+  <h1 id="headline1">Adam's Recipe Book</h1>
 
-  <h2>Contents:</h2>
+  <h2 class="headline2">Contents:</h2>
 
   <ol>
     <li><a href="?">Recipe #1</a></li>
   </ol>
 
-  <h2 id="?">Recipe #1</h2>
-
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
+  <h2 class="headline2">Recipe #1: Oatmealberry Chipnut Cookies!</h2>
 
   <table>
     <thead>
@@ -49,16 +56,45 @@ Select ONE Additional Feature to Add
     </thead>
     <tbody>
       <tr>
-        <td>Ingredient #1</td>
-        <td>Quantity #1</td>
+        <td>Oats</td>
+        <td>3 Cups</td>
+      </tr>
+      <tr>
+        <td>Flour</td>
+        <td>1 Cup</td>
+      </tr>
+      <tr>
+        <td>Water</td>
+        <td>1/2 Cup</td>
+      </tr>
+      <tr>
+        <td>Sugar</td>
+        <td>3/4 Cup</td>
+      </tr>
+      <tr>
+        <td>Cinnamon</td>
+        <td>1 Tsp.</td>
+      </tr>
+      <tr>
+        <td>Salt</td>
+        <td>1/2 Tsp.</td>
+      </tr>
+      <tr>
+        <td>Dried Cranberries</td>
+        <td>1/2 Cup</td>
+      </tr>
+      <tr>
+        <td>Dried Blueberries</td>
+        <td>1/2 Cup</td>
+      </tr>
+      <tr>
+        <td>Choc. Chips</td>
+        <td>1/2 Cup</td>
       </tr>
     </tbody>
   </table>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+  <p><em>Source: <a href="https://www.reddit.com/r/copypasta/comments/t9s1xk">Reddit</a></em></p>
 
 </body>
 
